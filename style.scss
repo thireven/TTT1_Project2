@@ -1,0 +1,52 @@
+html, body {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: black;
+}
+
+#top-bar {
+  height: 51px;
+  background: #372f2c;
+  color: white;
+}
+
+#masthead {
+  background: white;
+  height: 90px;
+}
+
+#banner-grid {
+  height: 650px;
+  background: blue;
+}
+
+.flex-row {
+  flex-direction: row;
+  flex: 1;
+  display: flex;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+#banner-grid {
+  display: flex;
+  
+  .grid-row {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .grid-col {
+    background: rgb(75, 12, 12);
+    flex: 1;
+    border: 1px solid yellow;
+  }
+}
