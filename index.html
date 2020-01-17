@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width">
     <title>Project 2</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
   </head>
   <body>
     <header>
@@ -16,26 +17,22 @@
       </div>
     </header>
     <main>
-      <div id="banner-grid" class="row">
-        <div id="banner-1" class="banner col-6">
-          <div class="bg-fill"></div>
-        </div>
-        <div class="col-6">
-          <div class="row">
-            <div id="banner-2" class="banner col-12">
 
-            </div>
-          </div>
-          <div class="row">
-            <div id="banner-3" class="banner col-6">
-
-            </div>
-            <div id="banner-4" class="banner col-6">
-
-            </div>
-          </div>
-        </div>
+      <div id="carousel-container">
+        <div class="item">A</div>
+        <div class="item">B</div>
+        <div class="item">C</div>
+        <div class="item">D</div>
+        <div class="item">E</div>
+        <div class="item">F</div>
+        <div class="item">G</div>
+        <div class="item">H</div>
+        <div class="item">I</div>
       </div>
+      <button class="btn" id="prev-btn">PREV</button>
+      <button class="btn" id="next-btn">NEXT</button>
     </main>
+
+    <script src="main.js"></script>
   </body>
 </html>
